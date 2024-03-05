@@ -1,0 +1,22 @@
+body {
+        overflow: hidden;
+            background-color: #506B44;
+                display: flex;
+                    justify-content: center;
+                        align-items: center;
+                            height: 100vh;
+                                margin: 0;
+                                }
+                                canvas {
+                                    border: 8px solid #333;
+                                        background-color: #f1f1f1;
+                                        }
+                                        #score {
+                                            color: #FFF;
+                                                font-size: 20px;
+                                                    position: absolute;
+                                                        top: 20px;
+                                                            left: 50%;
+                                                                transform: translateX(-50%);
+                                                                }
+}
